@@ -116,9 +116,7 @@ a {
   font-size: clamp(2rem, 4vw, 3rem);
   text-align: center;
   margin: 0 auto 3rem;
-  position: relative;
-  width: -moz-fit-content;
-  width: fit-content;
+  /* width: fit-content; Removed to ensure proper centering */
   display: block;
 }
 
@@ -162,6 +160,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .contact-text {
