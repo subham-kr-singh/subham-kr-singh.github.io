@@ -1,0 +1,80 @@
+.post-card {
+    display: flex;
+    padding: 16px;
+    border-bottom: 1px solid var(--border-color);
+    gap: 12px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.post-card:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.post-content {
+    flex: 1;
+    min-width: 0;
+    /* Prevents overflow */
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+
+.post-meta {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.post-username {
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.post-handle,
+.post-time,
+.post-dot {
+    color: var(--text-muted);
+}
+
+.more-btn {
+    color: var(--text-muted);
+    padding: 4px;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+
+.post-text {
+    color: var(--text-primary);
+    margin-bottom: 12px;
+    white-space: pre-wrap;
+}
+
+.post-image-container {
+    margin-bottom: 12px;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin-left: -8px;
+}
+
+.action-btn {
+    color: var(--text-muted);
+    font-weight: 400;
+    gap: 6px;
+}
+
+.action-btn:hover {
+    color: var(--accent-color);
+}
