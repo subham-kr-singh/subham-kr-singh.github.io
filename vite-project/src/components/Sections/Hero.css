@@ -3,8 +3,13 @@
     display: flex;
     align-items: center;
     padding-top: var(--nav-height);
-    background: radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 20%),
-        radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.1) 0%, transparent 20%);
+    padding-top: var(--nav-height);
+    background-image:
+        linear-gradient(rgba(59, 130, 246, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(59, 130, 246, 0.05) 1px, transparent 1px),
+        radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.15) 0%, transparent 50%);
+    background-size: 50px 50px, 50px 50px, 100% 100%;
+    background-position: center center;
 }
 
 .hero-container {
@@ -137,6 +142,14 @@
 .this {
     color: #cc7832;
     font-style: italic;
+}
+
+.type {
+    color: #bfa4a4;
+}
+
+.id {
+    color: #9876aa;
 }
 
 @media (max-width: 968px) {

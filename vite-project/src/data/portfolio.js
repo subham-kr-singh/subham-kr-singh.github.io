@@ -3,9 +3,9 @@ import { Code, Server, Database, Cloud, Terminal, Layers, Cpu, Globe, Shield, Ac
 export const portfolioData = {
   profile: {
     name: "Subham Kumar Singh",
-    title: "Backend & Fullstack Developer",
-    tagline: "Building scalable, high-performance systems.",
-    about: "I specialize in backend development with Java Spring Boot, Golang, and Node.js. Passionate about system design, cloud architecture, and building robust APIs.",
+    title: "Senior Backend Engineer",
+    tagline: "Architecting low-latency, distributed systems at scale.",
+    about: "I engineer robust backend infrastructure using Java, Go, and Rust. My focus is on high-performance microservices, database optimization, and cloud-native architectures that power mission-critical applications.",
     social: {
       linkedin: "https://www.linkedin.com/in/subham-kumar-singh-303a831b9/",
       github: "https://github.com/",

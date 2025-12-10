@@ -1,10 +1,11 @@
 import React from 'react';
 import Navbar from '../Sections/Navbar';
-import Contact from '../Sections/Contact';
+import '../UI/Scanline.css';
 
 const Layout = ({ children }) => {
     return (
         <div className="layout-wrapper">
+            <div className="scanline-overlay"></div>
             <Navbar />
             <main>
                 {children}

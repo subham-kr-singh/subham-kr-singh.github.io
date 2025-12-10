@@ -45,17 +45,16 @@ const Hero = () => {
                         </div>
                         <pre>
                             <code>
-                                <span className="kwd">class</span> <span className="cls">Developer</span> <span className="kwd">extends</span> <span className="cls">Person</span> {'{'}
-                                <span className="kwd">constructor</span>() {'{'}
-                                <span className="this">this</span>.name = <span className="str">"{name}"</span>;
-                                <span className="this">this</span>.skills = [<span className="str">"Java"</span>, <span className="str">"Spring"</span>, <span className="str">"Go"</span>];
-                                <span className="this">this</span>.passion = <span className="str">"Building Scalable Backend Systems"</span>;
-                                {'}'}
-
-                                <span className="fn">code</span>() {'{'}
-                                <span className="kwd">return</span> <span className="str">"Quality Software"</span>;
-                                {'}'}
-                                {'}'}
+                                <span className="kwd">type</span> <span className="cls">BackendSystem</span> <span className="kwd">struct</span> {'{'}
+                                <br />&nbsp;&nbsp;<span className="id">Architecture</span>  <span className="type">string</span>    <span className="str">`json:"microservices"`</span>
+                                <br />&nbsp;&nbsp;<span className="id">Database</span>      <span className="type">string</span>    <span className="str">`json:"postgres_sharded"`</span>
+                                <br />&nbsp;&nbsp;<span className="id">Latency</span>       <span className="type">string</span>    <span className="str">`json:"&lt;10ms"`</span>
+                                <br />&nbsp;&nbsp;<span className="id">Uptime</span>        <span className="type">string</span>    <span className="str">`json:"99.999%"`</span>
+                                <br />{'}'}
+                                <br />
+                                <br /><span className="fn">func</span> (<span className="this">s</span> *<span className="cls">BackendSystem</span>) <span className="fn">Scale</span>() <span className="type">error</span> {'{'}
+                                <br />&nbsp;&nbsp;<span className="kwd">return</span> <span className="fn">DeployKubernetes</span>()
+                                <br />{'}'}
                             </code>
                         </pre>
                     </div>
