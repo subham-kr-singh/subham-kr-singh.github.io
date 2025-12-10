@@ -3,7 +3,7 @@ import { Code, Server, Database, Cloud, Terminal, Layers, Cpu, Globe, Shield, Ac
 export const portfolioData = {
   profile: {
     name: "Subham Kumar Singh",
-    title: "Senior Backend Engineer",
+    title: "Backend Engineer",
     tagline: "Architecting low-latency, distributed systems at scale.",
     about: "I engineer robust backend infrastructure using Java, Go, and Rust. My focus is on high-performance microservices, database optimization, and cloud-native architectures that power mission-critical applications.",
     social: {
