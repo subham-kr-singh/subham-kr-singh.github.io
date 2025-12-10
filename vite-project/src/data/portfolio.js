@@ -9,7 +9,7 @@ export const portfolioData = {
     social: {
       linkedin: "https://www.linkedin.com/in/subham-kumar-singh-303a831b9/",
       github: "https://github.com/",
-      email: "mailto:contact@example.com"
+      email: "mailto:subhamkumarsingh077@gmail.com"
     }
   },
   skills: [
