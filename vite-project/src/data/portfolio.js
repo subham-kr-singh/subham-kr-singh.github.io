@@ -8,7 +8,7 @@ export const portfolioData = {
     about: "I engineer robust backend infrastructure using Java, Go, and Rust. My focus is on high-performance microservices, database optimization, and cloud-native architectures that power mission-critical applications.",
     social: {
       linkedin: "https://www.linkedin.com/in/subham-kumar-singh-303a831b9/",
-      github: "https://github.com/",
+      github: "https://github.com/subham-kr-singh",
       email: "mailto:subhamkumarsingh077@gmail.com"
     }
   },
