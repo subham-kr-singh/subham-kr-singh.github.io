@@ -19,15 +19,15 @@ const About = () => {
 
                         <div className="about-stats">
                             <div className="stat-item">
-                                <span className="stat-number">5+</span>
+                                <span className="stat-number">1+</span>
                                 <span className="stat-label">Years Experience</span>
                             </div>
                             <div className="stat-item">
-                                <span className="stat-number">20+</span>
+                                <span className="stat-number">2+</span>
                                 <span className="stat-label">Projects Completed</span>
                             </div>
                             <div className="stat-item">
-                                <span className="stat-number">10+</span>
+                                <span className="stat-number">0+</span>
                                 <span className="stat-label">Happy Clients</span>
                             </div>
                         </div>
